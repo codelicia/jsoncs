@@ -1,6 +1,8 @@
 JSON Code Style
 =========
 
+[![NPM Version](https://img.shields.io/npm/v/@codelicia/jsoncs)](https://www.npmjs.org/package/@codelicia/jsoncs)
+
 ## Command line interface
 Install jsoncs with npm to use the command line interface:
 
