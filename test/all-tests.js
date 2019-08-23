@@ -14,5 +14,6 @@ exports["test pass-2"] = function () {
   assert.equal(formatter.formatJson(actualJson), expectedJson);
 }
 
-if (require.main === module)
-    require("test").run(exports);
+if (require.main === module) {
+  require("test").run(exports);
+}
