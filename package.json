@@ -29,6 +29,7 @@
     "diff": "^4.0.1"
   },
   "devDependencies": {
+    "eslint": "^6.2.1",
     "test": "*"
   },
   "scripts": {
