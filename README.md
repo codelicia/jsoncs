@@ -13,6 +13,10 @@ Verify if the code style is fine:
 
     ./node_modules/.bin/jsoncs my/file.json
 
+Fix the code style of a file:
+
+    ./node_modules/.bin/jsoncs --fix my/file.json
+
 ### Options 
 
     $ jsoncs -h
@@ -20,6 +24,7 @@ Verify if the code style is fine:
     Usage: jsoncs [file]
 
     Options:
+       -f, --fix                Fix the file
        -v, --version            print version and exit
 
 ### Example
@@ -31,6 +36,5 @@ Verify if the code style is fine:
 
 ## TO-DO
 
-* Fix the errors found by the JSONCS
-* Make it multiple files
-* Leave the code style to the user
+* Make it accept multiple files
+* Leave the code style to the user in a config file
