@@ -13,9 +13,9 @@ Verify if the code style is fine:
 
     ./node_modules/.bin/jsoncs my/file.json
 
-Fix the code style of a file:
+Fix the code style of a file or multiple files:
 
-    ./node_modules/.bin/jsoncs --fix my/file.json
+    ./node_modules/.bin/jsoncs --fix my/directory/
 
 ### Options 
 
@@ -25,6 +25,7 @@ Fix the code style of a file:
 
     Options:
        -f, --fix                Fix the file
+       -q, --quiet              Run in quiet mode
        -v, --version            print version and exit
 
 ### Example
@@ -36,5 +37,4 @@ Fix the code style of a file:
 
 ## TO-DO
 
-* Make it accept multiple files
 * Leave the code style to the user in a config file

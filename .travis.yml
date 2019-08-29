@@ -11,4 +11,4 @@ before_script:
 
 script:
   - npm test
-  - ./node_modules/.bin/eslint ./lib
+  - npm run lint
