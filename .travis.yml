@@ -10,5 +10,5 @@ before_script:
   - npm install
 
 script:
-  - node test/formatter/all-tests.js
-  - ./node_modules/.bin/eslint ./lib
+  - npm test
+  - npm run lint
