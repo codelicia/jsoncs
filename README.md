@@ -11,11 +11,15 @@ Install jsoncs with npm to use the command line interface:
 
 Verify if the code style is fine:
 
-    ./node_modules/.bin/jsoncs my/file.json
+    ./node_modules/.bin/jsoncs 'my/file.json'
+
+or to multiple files
+
+    ./node_modules/.bin/jsoncs 'my/*.json'
 
 Fix the code style of a file or multiple files:
 
-    ./node_modules/.bin/jsoncs --fix my/directory/
+    ./node_modules/.bin/jsoncs --fix 'my/directory/*'
 
 ### Options 
 
