@@ -26,12 +26,12 @@
   },
   "dependencies": {
     "commander": "^4.0.0",
-    "diff": "^4.0.1",
-    "glob": "^7.1.4"
+    "diff": "^4.0.2",
+    "glob": "^7.1.6"
   },
   "devDependencies": {
-    "eslint": "^6.2.1",
-    "tape": "^4.11.0"
+    "eslint": "^6.8.0",
+    "tape": "^4.13.2"
   },
   "scripts": {
     "test": "./node_modules/.bin/tape test/*.js",
