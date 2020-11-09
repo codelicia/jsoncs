@@ -28,9 +28,10 @@ Fix the code style of a file or multiple files:
     Usage: jsoncs [file]
 
     Options:
-       -f, --fix                Fix the file
-       -q, --quiet              Run in quiet mode
-       -v, --version            print version and exit
+       -f, --fix                fix json file
+       -q, --quiet              quiet mode
+       -v, --version            json code style version
+       -s, --spaces <integer>   quantity of spaces to indent the json (default: 2)
 
 ### Example
 
@@ -38,7 +39,3 @@ Fix the code style of a file or multiple files:
 * _BLUE_: correct json
 
 ![](./example.png)
-
-## TO-DO
-
-* Leave the code style to the user in a config file
