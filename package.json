@@ -25,7 +25,7 @@
     "node": ">= 0.6"
   },
   "dependencies": {
-    "commander": "^7.0.0",
+    "commander": "^8.0.0",
     "diff": "^5.0.0",
     "glob": "^7.1.6"
   },
