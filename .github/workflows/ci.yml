@@ -1,16 +1,13 @@
 name: Continous Integration
 on: [push]
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [14.x, 16.x, 18.x, 19.x]
-
     steps:
-    - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
+    - uses: actions/checkout@v4
     - name: Node Setup
       uses: actions/setup-node@v4
       with:

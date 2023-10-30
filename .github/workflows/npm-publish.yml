@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@master
+      uses: actions/checkout@v4
     - name: Set up Node.js
-      uses: actions/setup-node@master
+      uses: actions/setup-node@v3
       with:
         node-version: 10.0.0
     - name: Publish if version has been updated
-      uses: pascalgn/npm-publish-action@5994a39d5a3b75d0aad12f4527c1c1364a6bc977
+      uses: pascalgn/npm-publish-action@v1
       with:
         tag_name: "v%s"
         tag_message: "v%s"

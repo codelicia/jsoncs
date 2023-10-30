@@ -1,14 +1,12 @@
 name: npm audit fix
-
 on:
   schedule:
     - cron: 0 0 * * * # Runs at 00:00 UTC every day
-
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
+      - uses: actions/checkout@v4
       - uses: ybiquitous/npm-audit-fix-action@v5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
